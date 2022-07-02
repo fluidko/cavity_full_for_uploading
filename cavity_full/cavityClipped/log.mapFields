@@ -1,0 +1,41 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2012                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _7bdb509494-20201222 OPENFOAM=2012
+Arch   : "LSB;label=32;scalar=64"
+Exec   : mapFields cavity -case cavityClipped -sourceTime latestTime
+Date   : May 16 2022
+Time   : 09:58:24
+Host   : SanghoKo
+PID    : 712
+I/O    : uncollated
+Case   : /home/sanghoko/OpenFOAM_files/cavity_full/cavityClipped
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Source: "/home/sanghoko/OpenFOAM_files/cavity_full" "cavity"
+Target: "/home/sanghoko/OpenFOAM_files/cavity_full" "cavityClipped"
+
+Create databases as time
+
+Source time: 0.5
+Target time: 0.5
+Create meshes
+
+Source mesh size: 400	Target mesh size: 336
+
+
+Mapping fields for time 0.5
+
+    interpolating p
+    interpolating U
+
+End
+
